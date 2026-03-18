@@ -1,0 +1,7 @@
+{
+  "name": "GD Simulator Pro",
+  "description": "An advanced AI-powered Group Discussion and Debate simulation engine for placement and corporate hiring preparation using Gemini Live API.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
