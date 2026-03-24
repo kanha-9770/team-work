@@ -10,7 +10,6 @@ import FeedbackReport from './components/FeedbackReport';
 import AuthPages from './components/AuthPages';
 import InfoPages from './components/InfoPages';
 import ApiKeySetup from './components/ApiKeySetup';
-import KeyManagement from './components/KeyManagement';
 import { generateText } from './services/geminiService';
 
 const AUTH_STORAGE_KEY = 'arena_gd_auth_status';
@@ -215,7 +214,6 @@ const App: React.FC = () => {
         )}
 
         {stage === GDStage.API_KEY_SETUP && <ApiKeySetup onSuccess={() => setStage(GDStage.LOBBY)} />}
-        {stage === GDStage.KEY_MANAGEMENT && <KeyManagement onBack={() => setStage(GDStage.LOBBY)} />}
         {stage === GDStage.LANDING && <LandingPage onStart={checkKeyOnStart} />}
         {stage === GDStage.LOBBY && <Lobby onStart={handleStartLobby} />}
         {stage === GDStage.TOPIC_SELECTION && (
