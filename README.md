@@ -19,5 +19,4 @@ View your app in AI Studio: https://ai.studio/apps/drive/1GBxs4xv686dWfgjGtQISbf
 3. Run the app:
    `npm run dev`
 
-## nadiya jal koyla bhai samundar lagi aag machhhi birchha chadh gyi uth kabira jaag.
-## til saman to gay hai bachhiya nav nav hanth matki bhar bhar duh liya kachhu na aya hanth...
+## comment by akash
