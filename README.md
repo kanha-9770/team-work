@@ -1,20 +1,24 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+CASE 1 — Finish Feature A, THEN Start Feature B (BEST)
+🔹 Step 1: Start Feature A
+git checkout develop
+git pull origin develop
 
-# Run and deploy your AI Studio app
+git checkout -b feature/dev-user-profile
+🔹 Step 2: Work + Commit
+git add .
+git commit -m "feat(profile): initial setup"
+🔹 Step 3: Push + PR
+git push origin feature/dev-user-profile
 
-This contains everything you need to run your app locally.
+👉 Create PR → develop
 
-View your app in AI Studio: https://ai.studio/apps/drive/1GBxs4xv686dWfgjGtQISbf5iQpyu8CwD
+🔹 Step 4: Get it merged
+🔹 Step 5: CLEANUP
+git checkout develop
+git pull origin develop
 
-## Run Locally
+git branch -d feature/dev-user-profile
+🔹 Step 6: Start Feature B
+git checkout -b feature/dev-notifications
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+✔ This is the cleanest workflow
