@@ -4,8 +4,8 @@ import { Participant } from './types';
 export const AI_PARTICIPANTS: Participant[] = [
   {
     id: 'ai-1',
-    name: 'Ankit (Analytical)',
-    role: 'Analytical Thinker',
+    name: 'Akash (Analytical)',
+    role: 'Analytical Thinker and Data-Driven',
     description: 'Data-driven, calm, relies on facts and logic. Very objective.',
     isAI: true,
     gender: 'MALE',
