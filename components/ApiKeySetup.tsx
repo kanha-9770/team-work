@@ -89,9 +89,7 @@ const ApiKeySetup: React.FC<ApiKeySetupProps> = ({ onSuccess }) => {
         </div>
       </div>
 
-      <div className="absolute bottom-12 left-1/2 -translate-x-1/2 opacity-20 text-[9px] font-black text-white uppercase tracking-[1em]">
-        ARENAGD MULTI-MODAL DEPLOYMENT
-      </div>
+      
     </div>
   );
 };
