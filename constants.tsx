@@ -5,8 +5,8 @@ export const AI_PARTICIPANTS: Participant[] = [
   {
     id: 'ai-1',
     name: 'Akash (Analytical)',
-    role: 'Analytical Thinker and Data-Driven',
-    description: 'Data-driven, calm, relies on facts and logic. Very objective.',
+    role: 'Analytical Thinker',
+    description: 'Data-driven, Very objective.',
     isAI: true,
     gender: 'MALE',
     voiceName: 'Puck',
